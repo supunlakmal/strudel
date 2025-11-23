@@ -1,0 +1,31 @@
+//Harry Potter – Hedwig’s Theme
+//https://github.com/supunlakmal
+setcpm(60)
+
+// Section 1
+$: note("<[b3 [e4 g4 f#4] e4 b3] [a3 f#3] [e4 g4 f#4 [d#4 f4]] [b3 b3]>")
+  .s("gm_church_organ")
+  .slow(4)
+  .room(0.3)
+  .velocity(0.7)
+
+// Section 2  
+$: note("<[e4 g4 f#4 e4 b3] [d4 c#4 c4 g#3] [c4 b3 a#3 a#3 g3] [e3 g3]>")
+  .s("gm_church_organ")
+  .slow(4)
+  .room(0.3)
+  .velocity(0.7)
+
+// Section 3
+$: note("<[b3 g3 b3 g3] [c4 b3 a#3 f#3] [g3 b3 a#3 a#3 b3] [b3 g3]>")
+  .s("gm_church_organ")
+  .slow(4)
+  .room(0.3)
+  .velocity(0.7)
+
+// Section 4
+$: note("<[b3 g3 b3 g3] [d4 c#4 c4 g#3] [c4 b3 a#3 a#3 g3] [e3]>")
+  .s("gm_church_organ")
+  .slow(4)
+  .room(0.3)
+  .velocity(0.8)
